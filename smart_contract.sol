@@ -18,9 +18,8 @@ contract EmployeeInfo{
     //Mapping to associate employee addresses with their information.
     mapping(address=>Employee)public employees_map;
 
-    //Events to log important actions for employee management.
+    //Event to log important actions for employee management.
     event EmployeeRegistered(address indexed EmployeeAddress,string AadharCard,string name, uint age,address WalletAddress);
-    event EmployeeInfoUpdated(address indexed EmployeeAddress,string AadharCard,string name,uint age,address WalletAddress);
 
     //Constructor to set the admin as the deployer of the contract.
     constructor(){
