@@ -1,7 +1,6 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.0;
 
-
 //EmployeeInfo is a smart contract to manage employee data.
 contract EmployeeInfo{
     //The Ethereum address of the admin who manages the contract.
